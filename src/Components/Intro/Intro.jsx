@@ -5,7 +5,7 @@ import Linkedin from "../../img/linkedin.png"
 import Instagram from "../../img/instagram.png"
 import Vector1 from "../../img/Vector1.png"
 import Vector2 from "../../img/Vector2.png"
-import Boy from "../../img/boy1.png"
+import Boy from "../../img/boy2.png"
 import Thumbup from "../../img/thumbup.png"
 import Crown from "../../img/crown.png"
 import Glassesimoji from "../../img/glassesimoji.png"
@@ -24,8 +24,8 @@ function Intro() {
             <div className="i-left">
                 <div className="i-name">
                     <span style={{ color: darkMode ? 'white' : '' }}>Hi !!! I Am</span>
-                    <span>Onkar Sabale</span>
-                    <span>Full Stack Web Developer, Mern Stack,<br />C++, Python Programming, Github.</span>
+                    <span>Tushar Mahajan</span>
+                    <span>Java Full Stack Developer, Frontend Developer,<br />Java, JavaScript,Core Java, Github.</span>
                 </div>
                 <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
                     <button className="button i-button">
@@ -33,13 +33,13 @@ function Intro() {
                     </button>
                 </Link>
                 <div className="i-icons">
-                    <a href='https://github.com/onkarsabale15' target='blank'>
+                    <a href='https://github.com/Tushar0417' target='blank'>
                         <img src={Github} alt="Cant Load Github Icon" />
                     </a>
-                    <a href='https://www.linkedin.com/in/onkar-sabale-270152177/' target='blank'>
+                    <a href='https://www.linkedin.com/in/tusharmahajan07/' target='blank'>
                         <img src={Linkedin} alt="Cant Load Linkedin Icon" />
                     </a>
-                    <a href='https://www.instagram.com/onkar_sabale_1911/' target='blank'>
+                    <a href='https://www.instagram.com/mr_tushar_0407/' target='blank'>
                         <img src={Instagram} alt="Cant Load Instagram Icon" />
                     </a>
                 </div>
@@ -50,10 +50,10 @@ function Intro() {
                 <img src={Boy} alt="Cant Load" />
                 <motion.img initial={{ left: '-36%' }} whileInView={{ left: '-24%' }} transition={transition} src={Glassesimoji} alt="Cant Load GIF" />
                 <motion.div initial={{ top: '-4%', left: '74%' }} whileInView={{ left: '68%' }} transition={transition} style={{ top: '-4%', left: '68%' }} className='floating-div'>
-                    <FloatingDiv image={Crown} text1="Web" text2="Developer" />
+                    <FloatingDiv image={Crown} text1="Frontend" text2="Developer" />
                 </motion.div>
                 <motion.div initial={{ left: '-6%' }} whileInView={{ left: 0 }} transition={transition} style={{ top: '18rem', left: '0rem' }} className='floating-div'>
-                    <FloatingDiv image={Thumbup} text1="C++, Python" text2="Programmer" />
+                    <FloatingDiv image={Thumbup} text1="Java" text2="Programmer" />
                 </motion.div>
                 <div className="blur" style={{ backgroundColor: 'rgb(238 210 255)' }}></div>
                 <div className="blur" style={{ background: '#54dcf7', top: '15rem', width: '21rem', height: '11rem', left: '-6rem', filter: 'blur(80px)' }}></div>

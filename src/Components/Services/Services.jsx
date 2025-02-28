@@ -18,7 +18,7 @@ function Services() {
       <div className="awesome">
         <span style={{ color: darkMode ? 'white' : '' }}>Fields of</span>
         <span>Knowledge</span>
-        {/* <span>Web Penetration Testing, MERN stack Developement<br />and Data analytics.</span> */}
+        {/* <span>Java Full Stack Developement,Frontend development <br />and Software Developer.</span> */}
         <a href={Resume} download>
           <button className="button s-button">Resume</button>
         </a>
@@ -32,9 +32,10 @@ function Services() {
           style={{ left: '14rem' }}>
           <Card
             emoji={HeartEmoji}
-            heading={"Web Security"}
-            details={'Web Application Penetrion Testing'}
-            link={'https://www.synopsys.com/glossary/what-is-web-application-penetration-testing.html'}
+            heading={"Java Full Stack Developement"}
+            details={"Html, Css, Bootstrap, JavaScript, React.Js, MySql, Core Java, Java, JSP, JDBC, Servlet, Hibernate, SpringCore, SpringBoot"}
+           
+            link={'https://www.geeksforgeeks.org/java-full-stack/'}
           />
         </motion.div>
         <motion.div
@@ -44,9 +45,9 @@ function Services() {
           style={{ top: '12rem', left: '-4rem' }}>
           <Card
             emoji={Glasses}
-            heading={'Web Developement'}
-            details={'HTML, CSS, JS, React.js, Node.js, Bootstrap'}
-            link={'https://www.mongodb.com/mern-stack'}
+            heading={'Frontend Developement'}
+            details={'HTML, CSS, JS, React.js,Bootstrap'}
+            link={'https://www.w3schools.com/whatis/whatis_frontenddev.asp'}
           />
         </motion.div>
         <motion.div
@@ -56,9 +57,9 @@ function Services() {
           style={{ top: '19rem', left: '12rem' }}>
           <Card
             emoji={Humble}
-            heading={"Data Analytics"}
-            details={"Python, Pandas, Data Visualization, SQL"}
-            link={'https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analytics-with-python'}
+            heading={"Backend Developement"}
+            details={"Java, JSP, JDBC, Servlet, Hibernate, SpringCore, SpringBoot,"}
+            link={'https://www.simplilearn.com/java-full-stack-developer-certification'}
           />
         </motion.div>
         <div className="blur s-blur2" style={{ background: "var(--purple)" }}></div>

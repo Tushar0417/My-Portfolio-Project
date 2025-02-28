@@ -17,7 +17,7 @@ function Works() {
             <div className="awesome works1">
                 <span style={{ color: darkMode ? 'white' : '' }}>My</span>
                 <span>Skills</span>
-                <span>Web Penetration Testing, Full stack<br />Web Developemer & Data analytics.</span>
+                <span>Java Full Stack Developer<br />Frontend Developer, Backend Developer & Software Developer</span>
                 <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
                     {/* <input type="button" className="w-button" value="Hire Me" /> */}
                     <button className="w-button" style={{fontSize:'16px'}}>Hire Me</button>
