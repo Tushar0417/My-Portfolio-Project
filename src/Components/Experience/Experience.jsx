@@ -1,8 +1,8 @@
 import React from 'react'
 import './Experience.css'
-import GDSC from '../../img/GDSC.png'
+import GDSC from '../../img/webcap media.jpg'
 import LnB from '../../img/LnB.png'
-import MyCaptain from '../../img/MyCaptain.png'
+import MyCaptain from '../../img/ybi.png'
 
 
 function Experience() {
@@ -13,21 +13,21 @@ function Experience() {
           <img src={LnB}/>
         </div>
         <span>LnB</span>
-        <span>Cyber Security <br />Intern</span>
+        <span>Data Science<br />Intern</span>
       </div>
       <div className="achievement">
         <div className="circle">
-          <img src={GDSC} style={{height:'151px'}}/>
+          <img src={GDSC} style={{height:'105px'}}/>
         </div>
-        <span>GDSC DYPIU</span>
-        <span>Core<br/>Team</span>
+        <span>Webap Media</span>
+        <span>Frontend Developer<br/>Intern</span>
       </div>
       <div className="achievement">
         <div className="circle">
-          <img src={MyCaptain}  style={{height:'151px'}}/>
+          <img src={MyCaptain}  style={{height:'105px'}}/>
         </div>
-        <span>MyCaptain</span>
-        <span>Campus<br/>Ambassador</span>
+        <span>Ybi Foundation</span>
+        <span>Data Analyst<br/>Intern</span>
       </div>
     </div>
   )
